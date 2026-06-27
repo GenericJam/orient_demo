@@ -70,6 +70,7 @@ defmodule OrientDemo.DiceScreen do
           type: :box,
           props: %{
             background: if(assigns.face, do: :primary, else: :surface_raised),
+            corner_radius: 28,
             padding: :space_lg
           },
           children: [
